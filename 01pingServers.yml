@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: JenkinsServer(ATC2)
   gather_facts: no
   remote_user: ansible
   tasks:
