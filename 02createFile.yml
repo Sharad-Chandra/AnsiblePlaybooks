@@ -1,5 +1,5 @@
 ---
-- hosts: appServers
+- hosts: JenkinsServer(ATC2)
   tasks:
    - name: Create a file
      file:
