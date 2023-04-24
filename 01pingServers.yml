@@ -1,5 +1,5 @@
 ---
-- hosts: AppServers
+- hosts: all
   gather_facts: no
   remote_user: ansible
   tasks:
