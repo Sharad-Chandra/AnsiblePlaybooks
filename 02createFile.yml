@@ -1,5 +1,5 @@
 ---
-- hosts: JenkinsServer(ATC2)
+- hosts: AnsibleTC2
   tasks:
    - name: Create a file
      file:
