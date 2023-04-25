@@ -1,11 +1,9 @@
 ---
-- hosts: JenkinsServer(ATC2)
+- hosts: AnsibleTC2
   gather_facts: no
-  remote_user: ansible
   tasks:
     - name: Test connection
       ping:
-      remote_user: ansible
 ...
 
 
